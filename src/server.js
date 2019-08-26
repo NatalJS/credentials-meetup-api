@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const routes = require('./routes');
 
-server.use(cors);
+server.use(cors());
 server.use(routes);
 
 const port = process.env.PORT || 3000;
