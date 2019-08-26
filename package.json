@@ -11,6 +11,7 @@
     "heroku-postbuild": "npm run config:db && NODE_ENV=production NODE_PATH=. npm run sequelize db:migrate --url=$DATABASE_URL"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "fastexpress": "2.0.0-alpha.4",
     "pg": "^7.12.1",
     "sequelize-cli": "^5.5.0"
