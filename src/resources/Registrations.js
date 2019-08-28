@@ -19,5 +19,6 @@ module.exports = endpoint(
   database,
   {
     name: stringFilter,
+    email: stringFilter,
   },
 );
