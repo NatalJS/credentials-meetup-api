@@ -755,10 +755,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-fastexpress@2.0.0-alpha.4:
-  version "2.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/fastexpress/-/fastexpress-2.0.0-alpha.4.tgz#7a14c7ff35c5146b6b2e28dbb19384b9ec6d9722"
-  integrity sha512-om2La+6GSgVmIarbg3gyZxpD8A32LQ8eJNpcmrAcCXi/CutI3O3ZNLUGEqf/h9d7zayekKk2oUkn9GJp2xN6+Q==
+fastexpress@^2.0.0-alpha.5:
+  version "2.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/fastexpress/-/fastexpress-2.0.0-alpha.5.tgz#9f72d2b495e895d255fcf07f1c02292b7b740b1a"
+  integrity sha512-aX09sFUBs656HjGVJYJCtVlGc/1Q+QtmC+FT9mBSmJ80VqXqXl7A+qbdAr4sG08LXsgMKpj3yXKyilIqOIJikg==
   dependencies:
     bcrypt "^3.0.6"
     express "4.17.1"
