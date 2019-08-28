@@ -1,4 +1,4 @@
-const { endpoint, validate } = require('fastexpress');
+const { endpoint, validate, stringFilter } = require('fastexpress');
 const database = require('../models');
 
 const { Registrations: Model } = database;
@@ -17,4 +17,7 @@ module.exports = endpoint(
     },
   },
   database,
+  {
+    name: stringFilter,
+  },
 );
